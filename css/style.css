@@ -101,17 +101,22 @@ section article p {
     font-family: 'Roboto';
 }
 
-.buy_button {
+.main_page a {
+    padding: 20px 49px;
+}
+
+.button_style {
     background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
     box-shadow: 0 0 166px rgba(0, 0, 0, 0.2), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 150%;
-    padding: 20px 49px;
     font-weight: 300;
     font-family: 'Roboto';
+    border: none;
 }
+
 h3 {
     font-family: 'Gothic A1';
     font-size: 24px;
@@ -125,8 +130,9 @@ h3 {
 
 .about_us, .buy_project {
     background-color: #FFFFFF;
-    background-size: cover;
-    height: 100vh;
+}
+
+.about_us {
     padding-top: 21px;
     padding-bottom: 200px;
 }
@@ -134,10 +140,10 @@ h3 {
 .background_balloons_1 {
     display: block;
     width: 100%;
-    margin-bottom: 150px;
 }
-
-
+.about_us .background_balloons_1 {
+    margin-bottom: 160px;
+}
 
 .about_us_width {
     max-width: 385px;
@@ -238,6 +244,10 @@ h3 {
 
 /*section portfolio*/
 
+.portfolio .background_balloons_1 {
+    padding-top: 27px;
+}
+
 .portfolio h3 {
     margin: 157px 830px 67px 260px;
     font-family: 'Gothic A1';
@@ -281,7 +291,7 @@ h3 {
 }
 
 
-.portfolio .buy_button {
+.portfolio .button_style {
     padding: 20px 68px;
     max-width: 290px;
 }
@@ -296,12 +306,15 @@ h3 {
 .bgc_white {
     background: #FFFFFF;
     border-radius: 20px;
+}
+
+.bgc_white:first-of-type {
     margin-bottom: 10px;
 }
+
 .bgc_white h3 {
     padding: 30px;
     max-width: 790px;
-
 }
 .container_2 {
     padding: 30px;
@@ -312,9 +325,7 @@ h3 {
     padding-left: 0;
     padding-right: 0;
 }
-.planned_cost form {
 
-}
 .bgc_form_white {
     background: #FFFFFF;
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
@@ -323,20 +334,21 @@ h3 {
     padding-bottom: 20px;
     padding-left: 20px;
     padding-top: 20px;
-    margin: 30px 30px 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
 }
-
 
 .bgc_1 {
     background: #4C6071;
     border-radius: 30px;
+    padding: 30px 50px 30px 30px;
 }
 
 .layout img {
     display: block;
     max-width: 610px;
     border-radius: 10px;
-    margin: 30px 50px 10px 0;
+    margin-bottom: 10px;
 }
 .layout a {
     padding: 20px 116px;
@@ -348,13 +360,48 @@ h3 {
     font-weight: 300;
     font-size: 20px;
     line-height: 150%;
-    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
 .planned_cost button {
     padding: 20px 116px;
     border: none;
 }
+
+/*section_catalog*/
+.catalog {
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.catalog h3 {
+    margin-bottom: 52px;
+    color: #373737;
+    padding-left: 95px;
+}
+
+.catalog a {
+    padding: 20px 46px;
+    margin-top: 30px;
+}
+
+.catalog div img {
+    margin-bottom: 20px;
+}
+
+.catalog h4 {
+    margin-bottom: 40px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+
+}
+.catalog .background_balloons_1 {
+    margin-bottom: 150px;
+}
+
+
 
 /*section_video_reviews*/
 .video_reviews {
@@ -400,12 +447,18 @@ h3 {
 
 /*section_buy_project*/
 
+.buy_project {
+    margin-top: 21px;
+    margin-bottom: 200px;
+}
+
+.buy_project .background_balloons_1 {
+    margin-bottom: 200px;
+}
+
 .buy_project h3 {
     padding-bottom: 30px;
 }
-
-
-
 
 .indent_1 {
     margin-bottom: 40px;
@@ -433,24 +486,14 @@ textarea {
     height: 24px;
 }
 
-.new_project {
-    border: none;
-    display: block;
-    color: #FFFFFF;
-    font-size: 20px;
-    line-height: 150%;
+.buy_project .button_style {
     padding: 20px 51px;
-    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
-    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
-    max-width: 255px;
 }
 
 .img_interior_2 {
     max-width: 616px;
     width: 100%;
     display: block;
-    margin-bottom: 200px;
 }
 
 
