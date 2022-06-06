@@ -70,7 +70,7 @@ header ul li {
 }
 
 .main_page {
-    background-image: url(../images/bg.jpg);
+    background-image: url("../images/bg.jpg");
     background-size: cover;
     height: 100vh;
     padding-top: 170px;
