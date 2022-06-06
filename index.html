@@ -8,7 +8,8 @@
     <title>Decor color expert</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600&family=Montserrat:wght@600&family=Roboto:wght@300;400;500&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -46,7 +47,7 @@
 </section>
 <section class="about_us">
     <img class="background_balloons_1" src="images/bg2.jpg" alt="background">
-    <div class="container d-flex">
+    <div class="d-flex">
         <div class="about_us_width">
             <h3>О нас</h3>
             <p class="info_about_us">Мы хотим что бы наши проекты соответствовали нашим высоким требованиям и желаниям
@@ -112,118 +113,121 @@
 <section class="planned_cost">
     <div class="container">
         <div class="bgc_white">
-        <h3>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h3>
+            <h3>Рассчитайте ориентировочную стоимость выполнения Ваших работ ответив всего на 5 вопросов</h3>
         </div>
         <div class="bgc_white container_2">
-        <div class="d-flex">
-            <h3>Какая услуга Вас интересует?</h3>
-            <h3>Вопрос 1 из 5</h3>
-        </div>
-        <div class="flex bgc_1">
-            <div class="form_service">
-                <form action="#" method="get" name="questions"></form>
-                <div class="bgc_form_white">
-                    <label>Декоративная штукатурка
-                    <input type="radio" name="service" value="plaster"></label>
-                </div>
-                <div class="bgc_form_white">
-                <label>Покраска
-                    <input type="radio" name="service" value="wall_painting"></label></div>
-                <div class="bgc_form_white">
-                <label>Декоративная штукатурка + покраска
-                    <input type="radio" checked name="service" value="plaster_and_wall_painting"></label></div>
+            <div class="d-flex">
+                <h3>Какая услуга Вас интересует?</h3>
+                <h3>Вопрос 1 из 5</h3>
             </div>
-            <div class="layout">
-                <img src="images/layout.jpg" alt="layout">
-                <div class="flex">
-                <a href="#">Назад</a>
-                <button class="button_style" type="submit">Далее</button>
+            <div class="flex bgc_1">
+                <div class="form_service">
+                    <form action="#" method="get" name="questions">
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка
+                                <input type="radio" name="service" value="plaster"></label>
+                        </div>
+                        <div class="bgc_form_white">
+                            <label>Покраска
+                                <input type="radio" name="service" value="wall_painting"></label></div>
+                        <div class="bgc_form_white">
+                            <label>Декоративная штукатурка + покраска
+                                <input type="radio" checked name="service" value="plaster_and_wall_painting"></label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="layout">
+                    <img src="images/layout.jpg" alt="layout">
+                    <div class="flex">
+                        <a href="#">Назад</a>
+                        <button class="button_style" type="submit">Далее</button>
+                    </div>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
+    </div>
 </section>
 <section class="catalog">
     <img class="background_balloons_1" src="images/bg2.jpg" alt="background">
     <div class="container">
-    <h3>Каталог фактур</h3>
-    <div class="d-flex">
-        <div>
-            <img src="images/grotto1.jpg" alt="plaster">
-            <h4>GROTTO</h4>
+        <h3>Каталог фактур</h3>
+        <div class="d-flex">
+            <div>
+                <img src="images/grotto1.jpg" alt="plaster">
+                <h4>GROTTO</h4>
+            </div>
+            <div>
+                <img src="images/marmorino2.jpg" alt="plaster">
+                <h4>MARMORINO</h4>
+            </div>
+            <div>
+                <img src="images/veneziano3.jpg" alt="plaster">
+                <h4>VENEZIANO</h4>
+            </div>
+            <div>
+                <img src="images/magie4.jpg" alt="plaster">
+                <h4>MAGIE</h4>
+            </div>
         </div>
-        <div>
-            <img src="images/marmorino2.jpg" alt="plaster">
-            <h4>MARMORINO</h4>
+        <div class="d-flex">
+            <div>
+                <img src="images/lava5.jpg" alt="plaster">
+                <h4>LAVA</h4>
+            </div>
+            <div>
+                <img src="images/persia6.jpg" alt="plaster">
+                <h4>PERSIA</h4>
+            </div>
+            <div>
+                <img src="images/sahara_gold7.jpg" alt="plaster">
+                <h4>SAHARA GOLD</h4>
+            </div>
+            <div>
+                <img src="images/travertino8.jpg" alt="plaster">
+                <h4>TRAVERTINO</h4>
+            </div>
         </div>
-        <div>
-            <img src="images/veneziano3.jpg" alt="plaster">
-            <h4>VENEZIANO</h4>
+        <div class="flex_center">
+            <a type="submit" class="button_style">Показать больше</a>
         </div>
-        <div>
-            <img src="images/magie4.jpg" alt="plaster">
-            <h4>MAGIE</h4>
-        </div>
-    </div>
-    <div class="d-flex">
-        <div>
-            <img src="images/lava5.jpg" alt="plaster">
-            <h4>LAVA</h4>
-        </div>
-        <div>
-            <img src="images/persia6.jpg" alt="plaster">
-            <h4>PERSIA</h4>
-        </div>
-        <div>
-            <img src="images/sahara_gold7.jpg" alt="plaster">
-            <h4>SAHARA GOLD</h4>
-        </div>
-        <div>
-            <img src="images/travertino8.jpg" alt="plaster">
-            <h4>TRAVERTINO</h4>
-        </div>
-    </div>
-    <div class="flex_center">
-    <a type="submit" class="button_style">Показать больше</a>
-    </div>
     </div>
 </section>
 <section class="video_reviews">
     <h3 class="container">Видеоотзывы</h3>
     <div class="container d-flex">
-    <div>
-        <div class="turn_on">
-            <img src="images/turn_on.svg" alt="turn_on">
+        <div>
+            <div class="turn_on">
+                <img src="images/turn_on.svg" alt="turn_on">
+            </div>
+            <img src="images/review_1.jpg" alt="review_1">
+            <h4>Влажность и мебель</h4>
+            <p>Мармушка обычно используется для вылова в северных морях</p>
         </div>
-        <img src="images/review_1.jpg" alt="review_1">
-        <h4>Влажность и мебель</h4>
-        <p>Мармушка обычно используется для вылова  в северных морях</p>
-    </div>
-    <div>
-        <div class="turn_on">
-            <img src="images/turn_on.svg" alt="turn_on">
+        <div>
+            <div class="turn_on">
+                <img src="images/turn_on.svg" alt="turn_on">
+            </div>
+            <img src="images/review_2.jpg" alt="review_2">
+            <h4>Влажность и мебель</h4>
+            <p>Мармушка обычно используется для вылова в северных морях</p>
         </div>
-        <img src="images/review_2.jpg" alt="review_2">
-        <h4>Влажность и мебель</h4>
-        <p>Мармушка обычно используется для вылова  в северных морях</p>
-    </div>
-    <div>
-        <div class="turn_on">
-            <img src="images/turn_on.svg" alt="turn_on">
+        <div>
+            <div class="turn_on">
+                <img src="images/turn_on.svg" alt="turn_on">
+            </div>
+            <img src="images/review_3.jpg" alt="review_3">
+            <h4>Влажность и мебель</h4>
+            <p>Мармушка обычно используется для вылова в северных морях</p>
         </div>
-        <img src="images/review_3.jpg" alt="review_3">
-        <h4>Влажность и мебель</h4>
-        <p>Мармушка обычно используется для вылова  в северных морях</p>
-    </div>
-    <div>
-        <div class="turn_on">
-            <img src="images/turn_on.svg" alt="turn_on">
+        <div>
+            <div class="turn_on">
+                <img src="images/turn_on.svg" alt="turn_on">
+            </div>
+            <img src="images/review_4.jpg" alt="review_4">
+            <h4>Влажность и мебель</h4>
+            <p>Мармушка обычно используется для вылова в северных морях</p>
         </div>
-        <img src="images/review_4.jpg" alt="review_4">
-        <h4>Влажность и мебель</h4>
-        <p>Мармушка обычно используется для вылова  в северных морях</p>
-    </div>
     </div>
 </section>
 <section class="buy_project">
